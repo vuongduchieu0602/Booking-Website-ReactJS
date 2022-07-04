@@ -46,3 +46,41 @@
     color: red !important;
   }
 }
+
+.modal-user-container {
+  .modal-header {
+    .modal-title{
+      margin: 0 auto;
+    }
+    button{
+      background-color: transparent;
+      color: white;
+      font-size: 24px;
+      border: none;
+    }
+  }
+
+  .modal-user-body {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      width: 49%;
+      /*&. là muốn viết 1 class ngang hàng với class cha*/
+      &.max-width-input {
+        width: 100%;
+      }
+
+      input {
+        border-radius: 3px;
+        border: 1px solid grey;
+        height: 30px;
+        outline: none;
+        padding: 0 10px;
+      }
+    }
+  }
+}
