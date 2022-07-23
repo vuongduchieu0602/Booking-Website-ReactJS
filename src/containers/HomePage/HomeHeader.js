@@ -6,7 +6,7 @@ class HomeHeader extends Component {
 
     render() {
         return (
-            <Flag
+            <React.Fragment>
             <div className="home-header-container">
                 <div className="home-header-content">
                     <div className="left-content">
@@ -37,6 +37,22 @@ class HomeHeader extends Component {
                     </div>
                 </div>
             </div>
+            <div className="home-header-banner">
+                <div className="content-up">
+                    <div className="title1">NỀN TẢNG Y TẾ</div>
+                    <div className="title2">CHĂM SÓC SỨC KHỎE TOÀN DIỆN</div>
+                    <div className="search">
+                        <i className="fas fa-search"></i>
+                        <input type="text" className="" placeholder="Tìm chuyên khoa"/>
+                    </div>
+                </div>
+                <div className="content-down">
+
+                </div>
+                
+                <div className="options"></div>
+            </div>
+            </React.Fragment>
         );
     }
 
