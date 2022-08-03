@@ -10,7 +10,7 @@ class HandBook extends Component {
                 <div className="section-container">
                     <div className="section-header">
                         <span className="title-section">Cẩm nang</span>
-                        <button className="btn-section">Xem thêm</button>
+                        <a href="#" className="btn-section"><span>Xem thêm</span><i></i></a>
                     </div>
                     <div className="section-body">
                         <Slider {...this.props.settings}>
